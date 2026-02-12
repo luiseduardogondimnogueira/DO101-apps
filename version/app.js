@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version is 3, and was uploaded to openshift automatically!' + '\n';
+    response = 'Essa versão foi atualizada no Github e enviada ao OpenShift automaticamente!!!' + '\n';
 
     //send the response to the client
     res.send(response);
